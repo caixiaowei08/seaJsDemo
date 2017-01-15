@@ -1,0 +1,21 @@
+{
+  "name": "seaJsdemo",
+  "homepage": "https://github.com/caixiaowei08/seaJsDemo",
+  "authors": [
+    "caixiaoeri08@163.com <caixiaowei08@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "sea": "^2.0.2",
+    "jquery": "^3.1.1"
+  }
+}

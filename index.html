@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples for Sea.js</title>
+    <script type="text/javascript" src="./js/sea.js"></script>
+    <script>
+        // seajs 的简单配置
+        seajs.config({
+            base: "./bower_components/",
+            alias: {
+                "jquery": "jquery/dist/jquery.js"
+            }
+        })
+        // 加载入口模块
+        seajs.use("./js/main")
+    </script>
+</head>
+<body>
+
+</body>
+</html>
